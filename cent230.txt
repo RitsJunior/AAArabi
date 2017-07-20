@@ -1,0 +1,28 @@
+Gitのコマンドたち
+
+
+git pull				
+Git add ~~~			
+Git commit -m ‘message’	
+Git push
+Git log
+Git log —onelineq
+Git log -p
+Git log —stat
+Git status					
+Git checkout —ファイル名	#間違った時一つ前に戻る
+git diff
+
+Git branch				#今のブランチの状況
+git branch -a				#今のブランチの状況
+Git branch ブランチ名			#この名前のブランチを作成
+Git checkout ブランチ名			#この名前のブランチに移動
+git branch --merged               	# マージ済みブランチの一覧
+git branch -d                          	# マージ済みブランチの削除
+git branch -D                          	# 強制的なブランチの削除
+Git merge ブランチ名			#マージ
+
+コッチ使う↓
+git checkout -b ブランチ名		#branchを切る
+git push -u origin ブランチ名	#この名前でリモートのブランチを作成（ブラウザに反映される）
+git push origin  :branch1	# リモートのブランチの削除
