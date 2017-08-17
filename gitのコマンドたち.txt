@@ -1,4 +1,17 @@
-Gitのコマンドたち
+﻿Gitのコマンドたち
+
+基本的な流れ
+まずcd desktop
+     cd GitHub
+     cd Rits-genome-engineering
+     cd src
+そこから今どこのブランチにいるのか調べる
+git branch
+masterにいるならgit checkout -b kota1
+                 git add .
+                 git commit -m ‘メッセージ’
+　　　　念のためgit statusやgit log
+          最後にgit push
 
 
 git pull				
@@ -23,6 +36,8 @@ git branch -D                          	# 強制的なブランチの削除
 Git merge ブランチ名			#マージ
 
 コッチ使う↓
-git checkout -b ブランチ名		#branchを切る
+		#branchを切る
 git push -u origin ブランチ名	#この名前でリモートのブランチを作成（ブラウザに反映される）
 git push origin  :branch1	# リモートのブランチの削除
+
+
